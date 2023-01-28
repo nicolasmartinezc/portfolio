@@ -1,0 +1,25 @@
+.tb-container {
+    width: 55%;
+    height: 50%;
+}
+
+thead {
+    margin-bottom: 20px;
+}
+
+
+
+th img{
+    width: 60px;
+    height: 60px;
+    filter: grayscale(100%);
+}
+
+th img:hover {
+    animation: animation 0.8s both; 
+}
+
+@keyframes animation {
+    from {filter: grayscale(100%);}
+    to{filter: grayscale(0%);}
+}

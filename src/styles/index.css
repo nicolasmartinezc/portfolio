@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: #1d1d1d;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #49c5b6;
+  border-radius: 3.5px;
+}
