@@ -14,14 +14,14 @@ export function LateralBarContact({ link, image, name, visibility, descargar}){
             {descargar ? 
                 <div className="lb-img-container">
                     <a className="lb-img" href={link} target="_blank" download onMouseEnter={mouseHover} onMouseLeave={mouseOut}>
-                        <img src={`/public/svg/${imageHover}.svg`}/>
+                        <img src={`./src/svg/${imageHover}.svg`}/>
                     </a>
                     <span>{name}</span>
                 </div>
                 :
                 <div className="lb-img-container">
                     <a className="lb-img" href={link} target="_blank" onMouseEnter={mouseHover} onMouseLeave={mouseOut}>
-                        <img src={`/public/svg/${imageHover}.svg`}/>
+                        <img src={`./src/svg/${imageHover}.svg`}/>
                     </a>
                     <span>{name}</span>
                 </div>
@@ -41,7 +41,7 @@ export function LateralBarNavigator({ link, image, visibility }){
     return (
         <div className="lb-container">
                 <Link className="lb-img" to={link} smooth={true} offset={0} duration={500} onMouseEnter={mouseHover} onMouseLeave={mouseOut}>
-                    <img src={`/public/svg/${imageHover}.svg`}/>
+                    <img src={`./src/svg/${imageHover}.svg`}/>
                 </Link>
             <div className={line}></div>
         </div>
