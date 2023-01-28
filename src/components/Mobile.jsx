@@ -21,16 +21,16 @@ export function LinksMobile({ }){
     return(
         <div className='link-mobile'> 
             <a href="https://github.com/elnico91" target="_blank">
-                <img src="./src/svg/github.svg"/>
+                <img src="/public/svg/github.svg"/>
             </a>
             <a href="https://www.linkedin.com/in/nicolasmartinezcastro/" target="_blank">
-                <img src="./src/svg/linkedin.svg"/>
+                <img src="/public/svg/linkedin.svg"/>
             </a>
             <a href="mailto:elnico-2001@hotmail.com" target="_blank">
-                <img src="./src/svg/mail.svg"/>
+                <img src="/public/svg/mail.svg"/>
             </a>
             <a href="./src/assets/nicolas-martinez-cv.pdf" target="_blank">
-                <img src="./src/svg/download.svg"/>
+                <img src="/public/svg/download.svg"/>
                 <span>Descargar CV</span>
             </a>
         </div>
