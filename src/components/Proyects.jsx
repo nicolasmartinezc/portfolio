@@ -26,10 +26,10 @@ export function Proyects({ title, repository, page, description, lenguaje}) {
             <span className='proyect-title'>{title}</span>
             <div className='links'>
               <a href={repository} target="_blank" onMouseEnter={githubHover} onMouseLeave={githubOut}>
-                <img src={`./src/svg/${githubImage}.svg`} alt="" />
+                <img src={`../svg/${githubImage}.svg`} alt="" />
               </a>
               <a href={page} target="_blank" onMouseEnter={linkHover} onMouseLeave={linkOut}>
-                <img src={`./src/svg/${linkImage}.svg`} alt="" />
+                <img src={`../svg/${linkImage}.svg`} alt="" />
               </a>
             </div>
           </div>
