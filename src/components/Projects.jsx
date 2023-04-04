@@ -1,35 +1,36 @@
 import { useState } from 'react'
 import lenguajes from '../json/lenguajes.json'
-import '../styles/Proyects.css'
+import '../styles/Projects.css'
 
 const Len = ({ id }) => {
   return(
-    lenguajes.map(leng => {
-      if (leng.id == id) {
-        return <span key={leng.id} className={leng.class}>{leng.name}</span>
+    lenguajes.map(lenguaje => {
+      if (lenguaje.id == id) {
+        return <span key={lenguaje.id} className={lenguaje.class}>{lenguaje.name}</span>
       }
     })
   )
 }
 
-export function Proyects({ title, repository, page, description, lenguaje}) {
-    const [githubImage, setGithubImage] = useState("githubProyect")
+export function Projects({ title, repository, page, description, lenguaje}) {
+    const [githubImage, setGithubImage] = useState("githubProject")
     const [linkImage, setLinkImage] = useState("link")
 
     const githubHover = () => setGithubImage(`githubHover`)
-    const githubOut = () => setGithubImage(`githubProyect`)
+    const githubOut = () => setGithubImage(`githubProject`)
     const linkHover = () => setLinkImage(`linkHover`)
     const linkOut = () => setLinkImage(`link`)
+    
     return (
-        <section className='proyect-card'>
+        <section className='project-card'>
           <div className='header-section'>
-            <span className='proyect-title'>{title}</span>
+            <span className='project-title'>{title}</span>
             <div className='links'>
               <a href={repository} target="_blank" onMouseEnter={githubHover} onMouseLeave={githubOut}>
-                <img src={`./src/svg/${githubImage}.svg`} alt="" />
+                <img src={`/svg/${githubImage}.svg`} alt="" />
               </a>
               <a href={page} target="_blank" onMouseEnter={linkHover} onMouseLeave={linkOut}>
-                <img src={`./src/svg/${linkImage}.svg`} alt="" />
+                <img src={`/svg/${linkImage}.svg`} alt="" />
               </a>
             </div>
           </div>

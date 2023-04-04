@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Link } from 'react-scroll'
 import "../styles/LateralBar.css"
 
-export function LateralBarContact({ link, image, name, visibility, descargar}){
+export function LateralBarContact({ link, image, name, visibility, download}){
     const [imageHover, setImageHover] = useState(image)
     const line = visibility ? "lb-line" : "lb-line-hidden"
 
@@ -11,17 +11,17 @@ export function LateralBarContact({ link, image, name, visibility, descargar}){
 
     return ( 
         <div className="lb-container">
-            {descargar ? 
+            {download ? 
                 <div className="lb-img-container">
                     <a className="lb-img" href={link} target="_blank" download onMouseEnter={mouseHover} onMouseLeave={mouseOut}>
-                        <img src={`./src/svg/${imageHover}.svg`}/>
+                        <img src={`/svg/${imageHover}.svg`}/>
                     </a>
                     <span>{name}</span>
                 </div>
                 :
                 <div className="lb-img-container">
                     <a className="lb-img" href={link} target="_blank" onMouseEnter={mouseHover} onMouseLeave={mouseOut}>
-                        <img src={`./src/svg/${imageHover}.svg`}/>
+                        <img src={`/svg/${imageHover}.svg`}/>
                     </a>
                     <span>{name}</span>
                 </div>
@@ -41,7 +41,7 @@ export function LateralBarNavigator({ link, image, visibility }){
     return (
         <div className="lb-container">
                 <Link className="lb-img" to={link} smooth={true} offset={0} duration={500} onMouseEnter={mouseHover} onMouseLeave={mouseOut}>
-                    <img src={`./src/svg/${imageHover}.svg`}/>
+                    <img src={`/svg/${imageHover}.svg`}/>
                 </Link>
             <div className={line}></div>
         </div>

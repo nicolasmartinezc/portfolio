@@ -1,4 +1,4 @@
-.proyects-container{
+.projects-container{
     display: grid;
     align-content: center;
     justify-content: center;
@@ -8,7 +8,7 @@
     height: 99%;
 }
 
-.proyect-card {
+.project-card {
     background: #1d1d1d;
     border-radius: 16px;
     padding: 15px;
@@ -16,11 +16,11 @@
     box-shadow: 5px 5px 10px 4px black;
 }
 
-.proyect-card:hover {
-    animation: proyectCard 3s infinite steps(30);
+.project-card:hover {
+    animation: projectCard 3s infinite steps(30);
 }
 
-@keyframes proyectCard {
+@keyframes projectCard {
     0% {box-shadow: -5px 5px 10px 0px #49c5b6, 5px -5px 10px 0px #fd2155;}
     25% {box-shadow: -5px -5px 10px 0px #49c5b6, 5px 5px 10px 0px #fd2155;}
     50% {box-shadow: 5px -5px 10px 0px #49c5b6, -5px 5px 10px 0px #fd2155;}
@@ -33,7 +33,7 @@
     justify-content: space-between;
 }
 
-.proyect-title {
+.project-title {
     color: #49c5b6;
     font-size: 25px;
     margin-bottom: 15px;
@@ -89,12 +89,12 @@
 }
 
 @media (max-width: 620px) { 
-    .proyects-container{
+    .projects-container{
         grid-template-columns: repeat(1, 0.5fr);
         grid-gap: .5rem;
     }
 
-    .proyect-title {
+    .project-title {
         font-size: 20px;
     }
 
