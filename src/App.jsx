@@ -39,7 +39,7 @@ function App() {
         <Skills></Skills>
         <div className='end-line middle'></div>
       </section>
-proyect
+
       <section className='projects' id='projects'>
         <h1 className='title'>Proyectos</h1>
         <div className='projects-container'>
