@@ -14,7 +14,7 @@ function App() {
         <LateralBarContact link="https://github.com/elnico91" image="github" name="Github" visibility={true} download={false}></LateralBarContact>
         <LateralBarContact link="https://www.linkedin.com/in/nicolasmartinezcastro/" image="linkedin" name="Linkedin" visibility={true} download={false}></LateralBarContact>
         <LateralBarContact link="mailto:elnico-2001@hotmail.com" image="mail" name="Correo" visibility={true} download={false}></LateralBarContact>
-        <LateralBarContact link="./assets/CV_Nicolas_Martínez.pdf" image="download" name="Descargar CV" visibility={true} download={true}></LateralBarContact>
+        <LateralBarContact link="/CV_Nicolas_Martínez.pdf" image="download" name="Descargar CV" visibility={true} download={true}></LateralBarContact>
       </div>
       <div className='lb-navigator'>
         <LateralBarNavigator link="about" image="arrow-up" visibility={true}></LateralBarNavigator>
