@@ -26,8 +26,8 @@ function App() {
         <div className='presentation'> 
           <h4>Hola, soy</h4>
           <h1>Nicolás Martínez</h1>
-          <p>Soy una persona curiosa el conocimiento, que me gusta ir experimentando cosas nuevas.
-            Disfruto de mi tiempo libre jugando videojuegos y viendo series.
+          <p>Desarrollador Full-Stack MERN, una persona curiosa y apasionada por el conocimiento, que se siente cómoda experimentando
+            cosas nuevas y aprendiendo rápidamente. Disfruto de mi tiempo libre jugando videojuegos y viendo series.
           </p>
           <LinksMobile></LinksMobile>
         </div>
