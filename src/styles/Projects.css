@@ -106,5 +106,8 @@
         overflow: hidden;
     }
 
+    .header-section {
+        flex-direction: column;
+    }
     
 }
