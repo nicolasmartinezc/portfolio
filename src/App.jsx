@@ -49,7 +49,7 @@ function App() {
           al carrito y simular la compra del articulo."
           lenguaje={[1, 2, 3]}
           ></Projects>
-          <Projects title="Tasker MERN" repository="https://github.com/elnico91/tasker-server" page="https://elnico91.github.io/tasker-mern/" 
+          <Projects title="Tasker MERN" repository="https://github.com/elnico91/tasker-mern" page="https://elnico91.github.io/tasker-mern/" 
           description="Un Todo list donde puedes organizar tus tareas para ser mas organizado/a y productivo/a. Puedes
           determinar una fecha donde estarías finalizando la tarea con una descripción de esta. Ayuda a planificar y 
           priorizar las tareas, reducir el estrés y evitar que las tareas se acumulen."
