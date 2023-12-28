@@ -17,6 +17,7 @@
   font-size: 20px;
   font-weight: bold;
   transition: all .3s ease;
+  text-decoration: none;
 }
 
 .navigator-link:hover {
