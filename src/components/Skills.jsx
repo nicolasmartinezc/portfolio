@@ -1,22 +1,67 @@
-import "../styles/Skills.css"
+import { useState } from 'react'
+import lang from '../json/languages.json'
+import '../styles/Skills.css'
 
 export function Skills(){
-    return (
-        <table className="tb-container">
-            <tbody>
-                <tr>
-                    <th><img src="/svg/html.svg"/></th>
-                    <th><img src="/svg/css.svg"/></th>
-                    <th><img src="/svg/javascript.svg"/></th>
-                    <th><img src="/svg/react.svg"/></th>
-                </tr>
-                <tr>
-                    <th><img src="/svg/nodejs.svg"/></th>
-                    <th><img src="/svg/mongodb.svg"/></th>
-                    <th><img src="/svg/git.svg"/></th>
-                </tr>
-            </tbody>
-            
-        </table>
-    )
+  const [category, setCategory] = useState('frontend')
+  const [svg, setSvg ]= useState(lang.filter(lang =>  lang.category === 'frontend'))
+
+  const toggleCategory = (x) => {
+    if (category === x) return
+
+    setCategory(x)
+    setSvg(lang.filter(lang =>  lang.category === x))
+  }
+
+  const createTable = (svg) => {
+    let table = ''
+    let count = 0
+    let maxLang = 0
+    svg.forEach(lang => {
+      if (maxLang === 9) return
+      if (count === 0) {
+        table += `<tr class='row-container'>`
+      }
+      table += `<th class='language-container'>
+                  ${lang.svg}
+                  <p class='language-name'>${lang.name}</p>
+                </th>`
+      count++
+      if (count === 3) {
+        table += '</tr>'
+        count = 0
+      }
+      maxLang++
+    })
+
+    if (maxLang != 9) {
+      for (let i = maxLang; i <= 9; i++, maxLang++) {
+        if(maxLang === 9) break
+        if (count === 0) table += `<tr class='row-container'>`
+        table += `<th class='language-container'>
+                    <p class='language-name'></p>
+                  </th>`
+        count++
+        if (count === 3) {
+          table += '</tr>'
+          count = 0
+        }
+      }
+    }
+
+    return table
+  }
+
+  return (
+    <article className='article-skills'>
+      <div className='category-container'>
+        <span className={category === 'frontend' ? 'category active' : 'category'} onClick={() => toggleCategory('frontend')}>Front-end</span>
+        <span className={category === 'backend' ? 'category active' : 'category'} onClick={() => toggleCategory('backend')}>Back-end</span>
+        {/* <span className={category === 'other' ? 'category active' : 'category'} onClick={() => toggleCategory('other')}>Otros</span> */}
+      </div>
+      <table className='table-container'>
+        <tbody className='tbody-container' dangerouslySetInnerHTML={{ __html: createTable(svg) }} />
+      </table>
+    </article>
+  )
 }

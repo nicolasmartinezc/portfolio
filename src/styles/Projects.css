@@ -1,113 +1,131 @@
-.projects-container{
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.5rem;
-    width: 80%;
-    height: 99%;
+.projects-container {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  position: relative;
+	color: #f1f1f1;
+  min-height: 350px;
+	height: 100%;
 }
 
-.project-card {
-    background: #1d1d1d;
-    border-radius: 16px;
-    padding: 15px;
-    height: auto;
-    box-shadow: 5px 5px 10px 4px black;
+.carrousel-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7.5%;
+  background-color: transparent;
+  border: none;
 }
 
-.project-card:hover {
-    animation: projectCard 3s infinite steps(30);
+.carrousel-projects svg {
+  border: #f0f0f075 1.5px solid;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all .3s ease;
 }
 
-@keyframes projectCard {
-    0% {box-shadow: -5px 5px 10px 0px #49c5b6, 5px -5px 10px 0px #fd2155;}
-    25% {box-shadow: -5px -5px 10px 0px #49c5b6, 5px 5px 10px 0px #fd2155;}
-    50% {box-shadow: 5px -5px 10px 0px #49c5b6, -5px 5px 10px 0px #fd2155;}
-    75% {box-shadow: 5px 5px 10px 0px #49c5b6, -5px -5px 10px 0px #fd2155;}
-    100% {box-shadow: -5px 5px 10px 0px #49c5b6, 5px -5px 10px 0px #fd2155;}
+.carrousel-projects svg:hover {
+  border: white 1.5px solid;
+  stroke: white;
+  height: 40px;
+  width: 40px;
 }
 
-.header-section {
-    display: flex;
-    justify-content: space-between;
+.project-info span + span {
+  margin-left: 15px;
+}
+
+.project-info {
+  width: 42%;
+  margin: 0px 3% 0px 0%;
 }
 
 .project-title {
-    color: #49c5b6;
-    font-size: 25px;
-    margin-bottom: 15px;
+  width: 100%;
 }
 
-.description {
-    color: #a7a7a7;
+.projects-links {
+  color: #f1f1f1;
+  text-decoration: none;
 }
 
-.lenguajes {
-    color: #a7a7a7;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin-top: 15px;
+.projects-links svg {
+  transition: all .3s;
 }
 
-.lenguajes > span {
-    margin-right: 10px;
-    font-family: consolas;
+.projects-links span {
+  transition: all .3s;
 }
 
-.html5:hover {
-    color: #dd4b25;
+.projects-links:hover svg {
+  stroke: #fd2155;
 }
 
-.css:hover {
-    color: #2449d8;
+.projects-links:hover span {
+  color: #fd2155;
 }
 
-.javascript:hover {
-    color: #e4d04b;
+.projects-links + .projects-links {
+  margin-left: 5%;
 }
 
-.react:hover {
-    color: #61dafb;
+.projects-links svg + span {
+  margin-left: 5px;
 }
 
-.nodejs:hover {
-    color: #89bb3c;
+.project-description {
+  margin-bottom: 32px;
+  max-width: 60ch;
+  white-space: normal;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+
 }
 
-.mongodb:hover {
-    color: #4ba13e;
+.used-language {
+  margin-top: 32px;
+  color: #ffdfe7;
+  background-color: #fd21547c;
+  padding: 7.5px;
+  border-radius: 25px;
 }
 
-.sql:hover {
-    color: #006b8d;
+.project-image {
+  width: 40%;
 }
 
-.php:hover {
-    color: #7175aa;
+.project-image img {
+  width: 100%;
+  height: 100%;
 }
 
-@media (max-width: 620px) { 
-    .projects-container{
-        grid-template-columns: repeat(1, 0.5fr);
-        grid-gap: .5rem;
-    }
-
-    .project-title {
-        font-size: 20px;
-    }
-
-    .description {
-        font-size: 15px;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 7;
-        overflow: hidden;
-    }
-
-    .header-section {
-        flex-direction: column;
-    }
-    
+.carrousel-index {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -15%;
+  width: 85%;
 }
+
+.button-carrousel {
+  cursor: pointer;
+  background-color: #3d3d3d;
+  border: none;
+  border-radius: 25px;
+  height: 10px;
+  width: 48%;
+}
+
+.button-carrousel.start {
+  background-color: #fd2154b2;
+}
+
+/* .button-carrousel.start {
+  transition: all 10s linear;
+}
+
+.button-carrousel.start {
+  background-image: linear-gradient(to right,#3d3d3d,#3d3d3d 50%,#fd2154b2 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+} */

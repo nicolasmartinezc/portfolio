@@ -1,0 +1,45 @@
+.talk-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.contact-information a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.contact-information a svg{
+  width: 55px;
+  height: 55px;
+  transition: all .3s ease;
+}
+
+.contact-information a:hover svg {
+  transform: translateY(-20%);
+}
+
+.contact-information:nth-child(2) a svg{
+  stroke: #0077B5;
+}
+
+.contact-information:nth-child(3) a svg{
+  stroke: #1515e7;
+}
+
+.contact-information:nth-child(4) a svg{
+  stroke: #f1f1f1;
+}
+
+.contact-information h4 {
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

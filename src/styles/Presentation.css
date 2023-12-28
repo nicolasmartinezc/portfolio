@@ -1,0 +1,93 @@
+.presentation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1f1f1;
+  width: 90%;
+  animation: presentation 1s;
+}
+
+@keyframes presentation {
+  from { transform: translateX(-150%); }
+  to { transform: translateX(0%); }
+}
+
+.presentation-container h1 {
+  font-size: 2.8rem;
+  font-family: consolas;
+  margin: 15px 0px;
+}
+
+.about {
+  color: #f0f0f0bb;
+  max-width: 550px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: system-ui;
+  animation: about 6s;
+}
+
+@keyframes about {
+  from { opacity: 0%; }
+  to { opacity: 100%; }
+}
+
+.links {
+  display: flex;
+  margin-top: 15px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact + .contact {
+  margin-left: 25px;
+}
+
+.contact svg {
+  margin: 10px 0px;
+  width: 35px;
+  height: 35px;
+}
+
+.contact:hover svg {
+  stroke: #f1f1f1;
+}
+
+.contact span {
+  color: #f0f0f075;
+}
+
+.links .contact:last-child span {
+  border-right: 2px solid #f1f1f1;
+  width: 9.3ch;
+  white-space: nowrap;
+  animation: typing 2s steps(12), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.contact:hover span {
+  color: #f1f1f1;
+}
+
+@keyframes typing {
+  from{width: 0;}
+}
+
+@keyframes blink {
+  50% {border-color: transparent;}
+}
+
+.image-container {
+  max-width: 390px;
+  max-height: 390px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 390px;
+  height: 390px;
+}

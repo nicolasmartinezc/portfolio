@@ -1,104 +1,48 @@
-.end-line {
-    background: #fd2155;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    width: 80%;
-    height: 2px;
+body {
+  margin: 0;
+  background-color: #1f1f1f;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  font-family: Anton, sans-serif;
 }
 
-.start {
-    top: 100%;
+body::-webkit-scrollbar {
+  width: 7px;
+  background: transparent;
 }
 
-.middle {
-    top: 200%;
+body::-webkit-scrollbar-thumb {
+  background: #49c5b6;
+  border-radius: 3.5px;
 }
 
-.final {
-    top: 300%;
-}
-
-.about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 99vw;
-    height: 100vh;
-}
-
-.decoration {
-    background-color: #fd2155;
-    width: 35%;
-    height: 100%;
-}
-
-.presentation {
-    color: #f1f1f1;
-    position: absolute;
-    width: 60%;
-    top: 33%;
-    left: 10%;
-    animation: presentation 1s;
-}
-
-@keyframes presentation {
-    from{ transform: translateX(-150%); }
-    to{ transform: translateX(0%); }
-}
-
-.presentation h4 {
-    margin: 0;
-    color: #49c5b6;
-    font-size: 1.6rem;
-    font-family: sans-serif;
-}
-
-.presentation h1 {
-    font-size: 2.8rem;
-    font-family: consolas;
-    margin: 15px 0px 15px 0px;
-}
-
-.presentation p {
-    margin: 0;
-    color: #f0f0f0bb;
-    text-align: start;
-    font-size: 1rem;
-    font-family: system-ui;
-    animation: presentationP 8s;
-}
-
-@keyframes presentationP {
-    from{opacity: 0%;}
-    to{opacity: 100%;}
+main {
+  max-width: 1300px;
 }
 
 .title {
-    color: #49c5b6;
-    font-size: 2rem;
+  color: #49c5b6;
+  font-size: calc(1.5rem + .9vw);
 }
 
-.skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 99vw;
-    height: 100vh;
+.container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  max-width: 1300px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  border-top: #fd2155 1.5px solid;
+  border-bottom: #fd2155 1.5px solid;
+  z-index: 0;
 }
 
-.projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 99vw;
-    height: 100vh;
+.talk.container {
+  min-height: 50vh;
 }
 
-@media (max-width: 700px) {
-    .presentation {
-        top: 25%;
-    }
+.projects, .skills {
+  flex-direction: column;
 }

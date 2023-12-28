@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Ecommerce",
+    "repository": "https://github.com/elnico91/ecommerce",
+    "url": "https://elnico91.github.io/ecommerce/",
+    "description": "Un ecommerce que esta diseñado con fines demostrativos en el que se utiliza una API para conseguir productos al que posteriormente que serán mostrados, con la posibilidad de añadir al carrito y simular la compra del articulo.",
+    "languages": [{"id": 1, "lang": "JavaScript"}, {"id": 2, "lang": "HTML"}, {"id": 3, "lang": "CSS"}],
+    "image": "../../public/ecommerce.webp",
+    "alt": "Pagina principal del ecommerce"
+  },
+  {
+    "id": 2,
+    "title": "TodoList MERN",
+    "repository": "https://github.com/elnico91/tasker-mern",
+    "url": "https://elnico91.github.io/tasker-mern/",
+    "description": "Un Todo list donde puedes organizar tus tareas para ser mas organizado/a y productivo/a. Puedes determinar una fecha donde estarías finalizando la tarea con una descripción de esta. Ayuda a planificar y priorizar las tareas, reducir el estrés y evitar que las tareas se acumulen.",
+    "languages": [{"id": 1, "lang": "React"}, {"id": 2, "lang": "Node.js"}, {"id": 3, "lang": "MongoDB"}, {"id": 4, "lang": "Bootstrap"}],
+    "image": "../../public/todolist.webp",
+    "alt": "Diseño de la pagina con la sesión ya iniciada"
+  }
+]

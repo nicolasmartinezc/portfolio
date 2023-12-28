@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "class": "react",
+    "name": "React",
+    "color": "#61DAFB",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-react' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#61DAFB' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M6.306 8.711c-2.602 .723 -4.306 1.926 -4.306 3.289c0 2.21 4.477 4 10 4c.773 0 1.526 -.035 2.248 -.102' /><path d='M17.692 15.289c2.603 -.722 4.308 -1.926 4.308 -3.289c0 -2.21 -4.477 -4 -10 -4c-.773 0 -1.526 .035 -2.25 .102' /><path d='M6.305 15.287c-.676 2.615 -.485 4.693 .695 5.373c1.913 1.105 5.703 -1.877 8.464 -6.66c.387 -.67 .733 -1.339 1.036 -2' /><path d='M17.694 8.716c.677 -2.616 .487 -4.696 -.694 -5.376c-1.913 -1.105 -5.703 1.877 -8.464 6.66c-.387 .67 -.733 1.34 -1.037 2' /><path d='M12 5.424c-1.925 -1.892 -3.82 -2.766 -5 -2.084c-1.913 1.104 -1.226 5.877 1.536 10.66c.386 .67 .793 1.304 1.212 1.896' /><path d='M12 18.574c1.926 1.893 3.821 2.768 5 2.086c1.913 -1.104 1.226 -5.877 -1.536 -10.66c-.375 -.65 -.78 -1.283 -1.212 -1.897' /><path d='M11.5 12.866a1 1 0 1 0 1 -1.732a1 1 0 0 0 -1 1.732z' /></svg>",
+    "category": "frontend"
+  },
+  {
+    "id": 2,
+    "class": "typescript",
+    "name": "TypeScript",
+    "color": "#3178C6",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-typescript' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#3178C6' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M15 17.5c.32 .32 .754 .5 1.207 .5h.543c.69 0 1.25 -.56 1.25 -1.25v-.25a1.5 1.5 0 0 0 -1.5 -1.5a1.5 1.5 0 0 1 -1.5 -1.5v-.25c0 -.69 .56 -1.25 1.25 -1.25h.543c.453 0 .887 .18 1.207 .5' /><path d='M9 12h4' /><path d='M11 12v6' /><path d='M21 19v-14a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2z' /></svg>",
+    "category": "frontend"
+  },
+  {
+    "id": 3,
+    "class": "javascript",
+    "name": "JavaScript",
+    "color": "#F7DF1E",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-javascript' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#f7df1e' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z' /><path d='M7.5 8h3v8l-2 -1' /><path d='M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5' /></svg>",
+    "category": "frontend"
+  },
+  {
+    "id": 4,
+    "class": "bootstrap",
+    "name": "Bootstrap",
+    "color": "#563d7c",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-bootstrap' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#563d7c' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M2 12a2 2 0 0 0 2 -2v-4a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2' /><path d='M2 12a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-4a2 2 0 0 1 2 -2' /><path d='M9 16v-8h3.5a2 2 0 1 1 0 4h-3.5h4a2 2 0 1 1 0 4h-4z' /></svg>",
+    "category": "frontend"
+  },
+  {
+    "id": 5,
+    "class": "css",
+    "name": "CSS",
+    "color": "#264DE4",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-css3' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#264de4' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z' /><path d='M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5' /></svg>",
+    "category": "frontend"
+  },
+  {
+    "id": 6,
+    "class": "html5",
+    "name": "HTML5",
+    "color": "#E44D26",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-html5' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#E44D26' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z' /><path d='M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5' /></svg>",
+    "category": "frontend"
+  },
+  {
+    "id": 7,
+    "class": "nodejs",
+    "name": "Node.js",
+    "color": "#68A063",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-nodejs' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#68A063' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M9 9v8.044a2 2 0 0 1 -2.996 1.734l-1.568 -.9a3 3 0 0 1 -1.436 -2.561v-6.635a3 3 0 0 1 1.436 -2.56l6 -3.667a3 3 0 0 1 3.128 0l6 3.667a3 3 0 0 1 1.436 2.561v6.634a3 3 0 0 1 -1.436 2.56l-6 3.667a3 3 0 0 1 -3.128 0' /><path d='M17 9h-3.5a1.5 1.5 0 0 0 0 3h2a1.5 1.5 0 0 1 0 3h-3.5' /></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 8,
+    "class": "springboot",
+    "name": "Spring Boot",
+    "color": "#6DB33F",
+    "svg": "<svg class='language' fill='#6DB33F' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' stroke='#6DB33F'><g id='SVGRepo_bgCarrier' stroke-width='0'></g><g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g><g id='SVGRepo_iconCarrier'><path d='M20.205 16.392c-2.469 3.289-7.741 2.179-11.122 2.338 0 0-.599.034-1.201.133 0 0 .228-.097.519-.198 2.374-.821 3.496-.986 4.939-1.727 2.71-1.388 5.408-4.413 5.957-7.555-1.032 3.022-4.17 5.623-7.027 6.679-1.955.722-5.492 1.424-5.493 1.424a5.28 5.28 0 0 1-.143-.076c-2.405-1.17-2.475-6.38 1.894-8.059 1.916-.736 3.747-.332 5.818-.825 2.208-.525 4.766-2.18 5.805-4.344 1.165 3.458 2.565 8.866.054 12.21zm.042-13.28a9.212 9.212 0 0 1-1.065 1.89 9.982 9.982 0 0 0-7.167-3.031C6.492 1.971 2 6.463 2 11.985a9.983 9.983 0 0 0 3.205 7.334l.22.194a.856.856 0 1 1 .001.001l.149.132A9.96 9.96 0 0 0 12.015 22c5.278 0 9.613-4.108 9.984-9.292.274-2.539-.476-5.763-1.752-9.596'></path></g></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 9,
+    "class": "mongodb",
+    "name": "MongoDB",
+    "color": "#13AA52",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-mongodb' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#13aa52' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M12 3v19' /><path d='M18 11.227c0 3.273 -1.812 4.77 -6 9.273c-4.188 -4.503 -6 -6 -6 -9.273c0 -4.454 3.071 -6.927 6 -9.227c2.929 2.3 6 4.773 6 9.227z' /></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 10,
+    "class": "mysql",
+    "name": "MySQL",
+    "color": "#4479A1",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-mysql' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#4479A1' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M13 21c-1.427 -1.026 -3.59 -3.854 -4 -6c-.486 .77 -1.501 2 -2 2c-1.499 -.888 -.574 -3.973 0 -6c-1.596 -1.433 -2.468 -2.458 -2.5 -4c-3.35 -3.44 -.444 -5.27 2.5 -3h1c8.482 .5 6.421 8.07 9 11.5c2.295 .522 3.665 2.254 5 3.5c-2.086 -.2 -2.784 -.344 -3.5 0c.478 1.64 2.123 2.2 3.5 3' /><path d='M9 7h.01' /></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 11,
+    "class": "sql",
+    "name": "SQL",
+    "color": "#003B57",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-sql' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#003B57' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z' /><path d='M17 8v8h4' /><path d='M13 15l1 1' /><path d='M3 15a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-2a1 1 0 0 1 -1 -1v-2a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1' /></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 12,
+    "class": "java",
+    "name": "Java",
+    "color": "#007396",
+    "svg": "<svg class='language' width='100px' height='100px' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'><g id='SVGRepo_bgCarrier' stroke-width='0'></g><g id='SVGRepo_tracerCarrier' stroke-linecap='round' stroke-linejoin='round'></g><g id='SVGRepo_iconCarrier'><path d='M16.0497 8.44062C22.6378 3.32607 19.2566 0 19.2566 0C19.7598 5.28738 13.813 6.53583 12.2189 10.1692C11.1312 12.6485 12.9638 14.8193 16.0475 17.5554C15.7749 16.9494 15.3544 16.3606 14.9288 15.7645C13.4769 13.7313 11.9645 11.6132 16.0497 8.44062Z' fill='#E76F00'></path><path d='M17.1015 18.677C17.1015 18.677 19.0835 17.0779 17.5139 15.3008C12.1931 9.27186 23.3333 6.53583 23.3333 6.53583C16.5317 9.8125 17.5471 11.7574 19.2567 14.1202C21.0871 16.6538 17.1015 18.677 17.1015 18.677Z' fill='#E76F00'></path><path d='M22.937 23.4456C29.0423 20.3258 26.2195 17.3278 24.2492 17.7317C23.7662 17.8305 23.5509 17.9162 23.5509 17.9162C23.5509 17.9162 23.7302 17.64 24.0726 17.5204C27.9705 16.1729 30.9682 21.4949 22.8143 23.6028C22.8143 23.6029 22.9088 23.5198 22.937 23.4456Z' fill='#5382A1'></path><path d='M10.233 19.4969C6.41312 18.9953 12.3275 17.6139 12.3275 17.6139C12.3275 17.6139 10.0307 17.4616 7.20592 18.8043C3.86577 20.3932 15.4681 21.1158 21.474 19.5625C22.0984 19.1432 22.9614 18.7798 22.9614 18.7798C22.9614 18.7798 20.5037 19.2114 18.0561 19.4145C15.0612 19.6612 11.8459 19.7093 10.233 19.4969Z' fill='#5382A1'></path><path d='M11.6864 22.4758C9.55624 22.2592 10.951 21.2439 10.951 21.2439C5.43898 23.0429 14.0178 25.083 21.7199 22.8682C20.9012 22.5844 20.3806 22.0653 20.3806 22.0653C16.6163 22.7781 14.441 22.7553 11.6864 22.4758Z' fill='#5382A1'></path><path d='M12.6145 25.6991C10.486 25.4585 11.7295 24.7474 11.7295 24.7474C6.72594 26.1222 14.7729 28.9625 21.1433 26.2777C20.0999 25.8787 19.3528 25.4181 19.3528 25.4181C16.5111 25.9469 15.1931 25.9884 12.6145 25.6991Z' fill='#5382A1'></path><path d='M25.9387 27.3388C25.9387 27.3388 26.8589 28.0844 24.9252 28.6612C21.2481 29.7566 9.62093 30.0874 6.39094 28.7049C5.22984 28.2082 7.40723 27.5189 8.09215 27.3742C8.80646 27.2219 9.21466 27.2503 9.21466 27.2503C7.9234 26.3558 0.868489 29.0067 5.63111 29.7659C18.6195 31.8372 29.3077 28.8331 25.9387 27.3388Z' fill='#5382A1'></path><path d='M28 28.9679C27.7869 31.6947 18.7877 32.2683 12.9274 31.8994C9.10432 31.6583 8.33812 31.0558 8.32691 31.047C11.9859 31.6402 18.1549 31.7482 23.1568 30.8225C27.5903 30.0016 28 28.9679 28 28.9679Z' fill='#5382A1'></path></g></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 13,
+    "class": "python",
+    "name": "Python",
+    "color": "#3572A5",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-python' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#3572A5' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3' /><path d='M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3' /><path d='M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4' /><path d='M11 6l0 .01' /><path d='M13 18l0 .01' /></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 14,
+    "class": "php",
+    "name": "PHP",
+    "color": "#4F5D95",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-file-type-php' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#4F5D95' fill='none' stroke-linecap='round' stroke-linejoin='round'>   <path stroke='none' d='M0 0h24v24H0z' fill='none'/>   <path d='M14 3v4a1 1 0 0 0 1 1h4' />   <path d='M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4' />   <path d='M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6' />   <path d='M17 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6' />   <path d='M11 21v-6' />   <path d='M14 15v6' />   <path d='M11 18h3' /></svg>",
+    "category": "backend"
+  },
+  {
+    "id": 15,
+    "class": "git",
+    "name": "Git",
+    "color": "#F05032",
+    "svg": "<svg class='language' xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-git' width='100' height='100' viewBox='0 0 24 24' stroke-width='1.5' stroke='#F05032' fill='none' stroke-linecap='round' stroke-linejoin='round'><path stroke='none' d='M0 0h24v24H0z' fill='none'/><path d='M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /><path d='M12 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /><path d='M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /><path d='M12 15v-6' /><path d='M15 11l-2 -2' /><path d='M11 7l-1.9 -1.9' /><path d='M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z' /></svg>",
+    "category": "other"
+  }
+]
