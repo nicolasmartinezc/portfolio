@@ -17,6 +17,8 @@
   font-size: calc(1.25rem + .5vw);;
   color: #f1f1f1;
   transition: all .3s ease;
+  border: none;
+  background-color: #1f1f1f;
 }
 
 .category.active {

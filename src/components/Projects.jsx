@@ -34,32 +34,30 @@ export function Projects() {
   return (
     <article className='projects-container'>
       <button className='carrousel-projects' onClick={(e) => changeProject(e, sub)}> { arrow_left } </button>
-        <div className='project-info'>
+        <article className='project-info'>
           <header className='project-header'>
             <h2 className='project-title'>{project[index].title}</h2>
-            <a className='projects-links' href={project[index].repository} target='_blank'>
-              { github }
-              <span>Github</span>
-            </a>
-            <a className='projects-links' href={project[index].url} target='_blank'>
-              { link }
-              <span>Repositorio</span>
-            </a>
+            <span className='projects-links' >
+              <a  href={project[index].repository} target='_blank'>{ github } Repositorio</a>
+            </span>
+            <span className='projects-links'>
+              <a  href={project[index].url} target='_blank'>{ link } Pagina Web</a>
+            </span>
           </header>
           <p className='project-description'>{project[index].description}</p>
           {
             project[index].languages.map(({id, lang}) => <span className='used-language' key={id}>{lang}</span>)
           }
-        </div>
-        <div className='project-image'>
+        </article>
+        <picture className='project-image'>
           <img src={project[index].image} alt={project[index].alt} />
-        </div>
+        </picture>
       <button className='carrousel-projects' onClick={(e) => changeProject(e, sum)}> { arrow_right } </button>
-      <div className='carrousel-index'>
+      <span className='carrousel-index'>
         {
           project.map(({id}) => <button className={index + 1 === id ? 'button-carrousel start' : 'button-carrousel'} key={id} onClick={() => changeProjectAutomatic(id - 1)}></button>)
         }
-      </div>
+      </span>
     </article>
   )
 }

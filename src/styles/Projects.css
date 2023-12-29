@@ -44,38 +44,34 @@
   width: 100%;
 }
 
-.projects-links {
+.projects-links a {
   color: #f1f1f1;
   text-decoration: none;
+}
+
+.projects-links a {
+  transition: all .3s;
 }
 
 .projects-links svg {
   transition: all .3s;
 }
 
-.projects-links span {
-  transition: all .3s;
-}
-
-.projects-links:hover svg {
-  stroke: #fd2155;
-}
-
-.projects-links:hover span {
+.projects-links:hover a{
   color: #fd2155;
+}
+
+.projects-links:hover a svg {
+  stroke: #fd2155;
 }
 
 .projects-links + .projects-links {
   margin-left: 5%;
 }
 
-.projects-links svg + span {
-  margin-left: 5px;
-}
-
 .project-description {
   margin-bottom: 32px;
-  max-width: 60ch;
+  max-width: 410px;
   white-space: normal;
   /* overflow: hidden; */
   text-overflow: ellipsis;

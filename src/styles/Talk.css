@@ -36,8 +36,9 @@
   stroke: #f1f1f1;
 }
 
-.contact-information h4 {
+.contact-information p {
   font-size: 22px;
+  font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: 0px;
   margin-left: 0px;

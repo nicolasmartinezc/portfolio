@@ -54,11 +54,11 @@ export function Skills(){
 
   return (
     <article className='article-skills'>
-      <div className='category-container'>
-        <span className={category === 'frontend' ? 'category active' : 'category'} onClick={() => toggleCategory('frontend')}>Front-end</span>
-        <span className={category === 'backend' ? 'category active' : 'category'} onClick={() => toggleCategory('backend')}>Back-end</span>
+      <span className='category-container'>
+        <button className={category === 'frontend' ? 'category active' : 'category'} onClick={() => toggleCategory('frontend')}>Front-end</button>
+        <button className={category === 'backend' ? 'category active' : 'category'} onClick={() => toggleCategory('backend')}>Back-end</button>
         {/* <span className={category === 'other' ? 'category active' : 'category'} onClick={() => toggleCategory('other')}>Otros</span> */}
-      </div>
+      </span>
       <table className='table-container'>
         <tbody className='tbody-container' dangerouslySetInnerHTML={{ __html: createTable(svg) }} />
       </table>
