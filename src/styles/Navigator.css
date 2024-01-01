@@ -28,3 +28,27 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 767px) {
+  .navigator {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 530px) {
+  .navigator-link {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 435px) {
+  .navigator-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 374px) {
+  .navigator-link {
+    font-size: .45rem;
+  }
+}

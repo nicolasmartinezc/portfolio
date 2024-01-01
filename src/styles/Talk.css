@@ -36,11 +36,37 @@
   stroke: #f1f1f1;
 }
 
-.contact-information p {
+.contact-information a p {
   font-size: 22px;
   font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
+}
+
+@media (max-width: 767px) {
+  .talk-container {
+    width: 100%;
+  }
+
+  .contact-information a svg {
+    height: 45px;
+    width: 45px;
+  }
+
+  .contact-information a p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 374px) {
+  .contact-information a svg {
+    height: 40px;
+    width: 40px;
+  }
+
+  .contact-information a p {
+    font-size: 14px;
+  }
 }

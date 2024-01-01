@@ -46,3 +46,13 @@ main {
 .projects, .skills {
   flex-direction: column;
 }
+
+@media (max-width: 767px) {
+  .title {
+    font-size: calc(1.4rem + .9vw);
+  }
+
+  .projects.container {
+    justify-content: center;
+  }
+}

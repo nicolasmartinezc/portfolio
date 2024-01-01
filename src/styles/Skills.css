@@ -69,3 +69,25 @@
 .language:hover + .language-name{
   color: #f1f1f1;
 }
+
+@media (max-width: 767px) {
+  .category {
+    font-size: calc(1.1rem + .5vw);
+  }
+
+  .table-container {
+    min-width: 375px;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 374px) {
+  .language {
+    width: 70px;
+    height: 70px;
+  }
+
+  .table-container {
+    min-width: 320px;
+  }
+}
