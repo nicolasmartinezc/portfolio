@@ -16,7 +16,7 @@ export function Presentation() {
         <nav className='links'>
           <a className='contact' href='https://github.com/nicolasmartinezc' target='_blank'> { github } <span>Github</span></a>
           <a className='contact' href='https://www.linkedin.com/in/nicolasmartinezc/' target='_blank'> { linkedin } <span>Linkedin</span></a>
-          <a className='contact' href='mailto:elnico-2001@hotmail.com'> { mail } <span>Correo</span></a>
+          <a className='contact' href='mailto:nmartinez.castro01@gmail.com'> { mail } <span>Correo</span></a>
           <a className='contact' href='/assets/CV_Nicolas_Martinez.pdf' target='_blank'> { curriculum } <span>Curriculum</span></a>
         </nav>
       </article>

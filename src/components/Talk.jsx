@@ -17,7 +17,7 @@ export function Talk() {
         </a>
       </article>
       <article className='contact-information' >
-        <a href='mailto:elnico-2001@hotmail.com' >
+        <a href='mailto:nmartinez.castro01@gmail.com' >
           { mail }
           <p>Correo</p>
         </a>
