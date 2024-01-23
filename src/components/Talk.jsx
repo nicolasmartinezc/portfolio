@@ -5,13 +5,13 @@ export function Talk() {
   return(
     <article className='talk-container'>
       <article className='contact-information' >
-        <a href='https://github.com/elnico91' target='_blank'>
+        <a href='https://github.com/nicolasmartinezc' target='_blank'>
           { github }
           <p>Github</p>
         </a>
       </article>
       <article className='contact-information' >
-        <a href='https://www.linkedin.com/in/nicolasmartinezcastro/' target='_blank'>
+        <a href='https://www.linkedin.com/in/nicolasmartinezc/' target='_blank'>
           { linkedin }
           <p>Linkedin</p>
         </a>

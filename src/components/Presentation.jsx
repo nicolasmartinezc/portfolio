@@ -10,12 +10,12 @@ export function Presentation() {
           <h1 className='name'>Nicolás Martínez</h1>
         </header>
         <p className='about'>Desarrollador Full-Stack MERN titulado de la Universidad Técnica Santa Maria.
-        Una persona curiosa y apasionada por el conocimiento, que se siente cómoda experimentando
+        Una persona curiosa y apasionada por el conocimiento, que se siente cómodo experimentando
         cosas nuevas y aprendiendo rápidamente. Disfruto de mi tiempo libre jugando videojuegos y viendo series.
         </p>
         <nav className='links'>
-          <a className='contact' href='https://github.com/elnico91' target='_blank'> { github } <span>Github</span></a>
-          <a className='contact' href='https://www.linkedin.com/in/nicolasmartinezcastro/' target='_blank'> { linkedin } <span>Linkedin</span></a>
+          <a className='contact' href='https://github.com/nicolasmartinezc' target='_blank'> { github } <span>Github</span></a>
+          <a className='contact' href='https://www.linkedin.com/in/nicolasmartinezc/' target='_blank'> { linkedin } <span>Linkedin</span></a>
           <a className='contact' href='mailto:elnico-2001@hotmail.com'> { mail } <span>Correo</span></a>
           <a className='contact' href='/assets/CV_Nicolas_Martínez.pdf' target='_blank'> { curriculum } <span>Curriculum</span></a>
         </nav>
