@@ -23,7 +23,7 @@ export function Talk() {
         </a>
       </article>
       <article className='contact-information' >
-        <a href='/assets/CV_Nicolas_Martínez.pdf' target='_blank'>
+        <a href='/assets/CV_Nicolas_Martinez.pdf' target='_blank'>
           { curriculum }
           <p>Curriculum</p>
         </a>
